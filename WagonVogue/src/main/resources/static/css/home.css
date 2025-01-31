@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.HomeFullCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.HomeCard{
+	
+}
+
+.HomeCard button{
+ width:18rem;
+ height:3.5rem;
+ margin-top:0px;
+ background-color:#1E1E1E;
+ display: flex;
+ justify-content: space-between;
+}
+button:hover{
+	background-color:white;
+	color:#1E1E1E;	
+}
+.HomeCard img{
+ margin-bottom:0px;
+ width:300px;
+ height:340px;
+}
+.MainTitle a{
+	font-size:7rem;
+}
+.MainTitle {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+}
+body{
+	text-align:center;
+}
+h1{
+	margin:8rem;
+}
+.ActionBtn{
+	text-align:center;
+}
+nav a div svg{
+	margin-top:-50px;
+}
+main{
+	text-align:center;
+	align-items:center;
+}
+.button-container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container button{
+	padding:10px;
+}

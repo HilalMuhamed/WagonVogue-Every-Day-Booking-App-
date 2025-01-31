@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* General styling for the body */
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #131313; /* Dark background */
+    color: #ffffff; /* White text color */
+    letter-spacing: 2px; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Styling for the About Us section */
+h2 {
+    font-size: 96px; /* Large size for heading */
+    /*color: #ffffff;  Bold purple color */
+    text-transform: uppercase; /* All caps */
+    margin-top: 50px; /* Spacing from the top */
+    font-weight: bold;
+}
+.uspurple {
+    color: #a100ff; /* Purple color for the word "Us" */
+}
+h3 {
+    font-size: 60px; /* Large size for heading */
+    /*color: #ffffff;  Bold purple color */
+    text-transform: uppercase; /* All caps */
+    margin-top: 50px; /* Spacing from the top */
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px; /* Medium-sized text */
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px; /* Limit width for better readability */
+    color: #cccccc; /* Light grey text for better contrast */
+}
+
+/* Styling for the image */
+img {
+    width: 40%; /* Adjust image width */
+    height: 10vh;
+    margin: 30px auto;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+/* Styling for links */
+a {
+    color: #00aaff; /* Bright blue for clickable text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Team section styling */
+.team-section {
+    margin-top: 50px;
+}
+
+.team-heading {
+    font-size: 72px; /* Slightly smaller than the main title */
+    color: #a100ff; /* Same bold purple as the main title */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.team-member {
+    font-size: 70px; /* Name of team members */
+    margin: 10px auto;
+    display: inline-block;
+    color: #ffffff; /* Keep names white */
+}
+
+.team-member span {
+    color: #a100ff; /* Purple for roles */
+}
+
+/* Footer or small print text */
+.footer {
+    margin-top: 50px;
+    font-size: 32px;
+    color: #aaaaaa; /* Light grey text */
+}
+h4{
+	font-size:30px;
+}

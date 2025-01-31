@@ -1,0 +1,51 @@
+@charset "UTF-8";
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin:150px;
+}
+h1{
+	align-items:center;
+	text-align:center;
+	font-size:4rem;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(136, 0, 255, 0.6);
+    width: 1200px;
+}
+form label {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+form input[type="radio"] {
+    margin: 10px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8800FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}

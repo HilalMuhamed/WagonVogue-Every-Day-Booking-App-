@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.BrowsingCard {
+ background-color: rgb(10,10,10);
+  padding: 10px;
+}
+
+.product-item {
+  display: inline-block;
+  width: 350px;
+  margin: 10px;
+  border: 2px solid #8800FF;
+  border-radius:10px;
+  background-color:#EEEEEE;
+  color:black;
+  text-decoration:none;
+	text-align:center;
+}
+/* Remove text decoration from anchor tags inside product-item */
+.product-item a {
+    text-decoration: none;
+    color: inherit; /* Keeps the text color as is */
+}
+
+.product-item img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  padding:20px; /* This ensures the image fills the container */
+}
+main{
+	background-color:rgb(10,10,10) ;
+	text-align:center;
+	color:#EEEEEE;
+	margin-bottom:40px;
+}

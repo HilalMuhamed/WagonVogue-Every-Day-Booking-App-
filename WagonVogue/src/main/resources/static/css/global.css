@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+	margin:0;
+	padding:0;
+	font-family: "Anton", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	text-decoration:none;
+}
+h1{
+	font-size:6rem;
+}
+p{
+	font-size:2rem;
+}
+body{
+		margin:36px;
+	  	background-color:rgb(10,10,10);
+  		color:white;
+}
+button{
+	background-color:#8800FF;
+	color:white;
+	border-radius:0.5rem;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:-1rem;
+	font-size:2rem;
+	cursor:pointer;
+	padding:3px;
+	padding-left:1.5px;
+	padding-right:1.5px;
+}
+button:hover{
+	background-color:white;
+	color:#8800FF;	
+}
+svg{
+	width:7rem;
+}
+span{
+	color:#8800FF;
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+nav a p {
+	text-decoration:none;
+	color:white;
+}
+purpleColor{
+	color:#8800FF;
+	font-size:7rem;
+}
+.LoginButton{
+	background-color:#8800FF;
+	color:white;
+	border-radius:0.5rem;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:2rem;
+	cursor:pointer;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+}
+.LoginButton:hover{
+	background-color:white;
+	color:#8800FF;	
+}
+footer {
+    background-color: #8800FF;
+    color: white;
+    padding: 50px 0;
+    margin-bottom:-55px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.brand h2 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.footer-section h3 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
