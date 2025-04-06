@@ -1,10 +1,26 @@
-HELP.md
+# ===== Maven & Build Output =====
 target/
-!.mvn/wrapper/maven-wrapper.jar
+build/
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
+# ===== Maven Wrapper =====
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ===== Spring Boot Configuration (Sensitive) =====
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+# Optional: sample config for reference (don't ignore this)
+# Keep `application-sample.properties` tracked for developers to copy
+
+# ===== IDEs =====
+
+# STS
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +29,25 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# VS Code
+.vscode/
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Logs
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
